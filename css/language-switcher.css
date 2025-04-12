@@ -21,11 +21,47 @@
   border: 2px solid #fff;
 }
 
+/* For desktop view */
+@media (min-width: 992px) {
+  .language-switcher {
+    position: relative;
+    display: inline-flex;
+  }
+}
+
 /* For mobile view */
 @media (max-width: 991.98px) {
+  /* In the top corner for the collapsed state */
   .language-switcher {
     position: absolute;
     top: 15px;
     right: 70px;
+  }
+  
+  /* Inside the mobile menu */
+  .site-mobile-menu .language-switcher {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 10px 0;
+  }
+  
+  /* Make flags larger and more visible in the mobile menu */
+  .site-mobile-menu .language-switcher img {
+    width: 36px;
+    height: 36px;
+    margin: 0 15px; 
+    border: 2px solid transparent;
+  }
+  
+  .site-mobile-menu .language-switcher img.active {
+    border: 2px solid #ff9933;
+    box-shadow: 0 0 10px rgba(255, 153, 51, 0.5);
   }
 }

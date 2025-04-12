@@ -61,3 +61,40 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+// Function to get the correct path for the selected language
+function getLanguagePath(currentPath, lang) {
+  // Strip trailing slash if exists
+  let path = currentPath.endsWith('/') ? currentPath.slice(0, -1) : currentPath;
+  
+  // If path is root, set to index
+  if (path === '' || path === '/') {
+    path = '/index';
+  }
+  
+  // Remove .html extension if present
+  if (path.endsWith('.html')) {
+    path = path.slice(0, -5);
+  }
+  
+  // Extract the base path without language suffixes
+  let basePath = path;
+  if (basePath.endsWith('_en')) {
+    basePath = basePath.slice(0, -3);
+  } else if (basePath.endsWith('_ru')) {
+    basePath = basePath.slice(0, -3);
+  }
+  
+  // Add appropriate language suffix
+  if (lang === 'en') {
+    path = basePath + '_en';
+  } else if (lang === 'ru') {
+    path = basePath + '_ru';
+  } else {
+    // Default to Georgian (no suffix)
+    path = basePath;
+  }
+  
+  // Return the final path (without .html as per requirements)
+  return path;
+}
