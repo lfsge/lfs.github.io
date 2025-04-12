@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.lfs.ge/</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/index_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/index_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/index_en</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/index_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/index_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/index_ru</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/index_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/index_ru" />
+  </url>
+  
+  <!-- About Pages -->
+  <url>
+    <loc>https://www.lfs.ge/about</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/about_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/about_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/about_en</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/about_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/about_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/about_ru</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/about_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/about_ru" />
+  </url>
+  
+  <!-- Practice Pages -->
+  <url>
+    <loc>https://www.lfs.ge/practice</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/practice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/practice_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/practice_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/practice_en</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/practice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/practice_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/practice_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/practice_ru</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/practice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/practice_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/practice_ru" />
+  </url>
+  
+  <!-- Case Studies Pages -->
+  <url>
+    <loc>https://www.lfs.ge/case-studies</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/case-studies_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/case-studies_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/case-studies_en</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/case-studies_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/case-studies_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/case-studies_ru</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/case-studies_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/case-studies_ru" />
+  </url>
+  
+  <!-- Contact Pages -->
+  <url>
+    <loc>https://www.lfs.ge/contact</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/contact_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/contact_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/contact_en</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/contact_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/contact_ru" />
+  </url>
+  
+  <url>
+    <loc>https://www.lfs.ge/contact_ru</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://www.lfs.ge/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lfs.ge/contact_en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lfs.ge/contact_ru" />
+  </url>
+  
+</urlset>
