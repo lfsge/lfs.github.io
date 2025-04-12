@@ -52,17 +52,22 @@ function getLanguagePath(currentPath, lang) {
     path = path.slice(0, -5);
   }
   
-  // English version has _en suffix
+  // Extract the base path without language suffixes
+  let basePath = path;
+  if (basePath.endsWith('_en')) {
+    basePath = basePath.slice(0, -3);
+  } else if (basePath.endsWith('_ru')) {
+    basePath = basePath.slice(0, -3);
+  }
+  
+  // Add appropriate language suffix
   if (lang === 'en') {
-    // Check if already has _en suffix
-    if (!path.endsWith('_en')) {
-      path = path + '_en';
-    }
+    path = basePath + '_en';
+  } else if (lang === 'ru') {
+    path = basePath + '_ru';
   } else {
-    // For Georgian, remove _en suffix if present
-    if (path.endsWith('_en')) {
-      path = path.slice(0, -3);
-    }
+    // Default to Georgian (no suffix)
+    path = basePath;
   }
   
   // Return the final path (without .html as per requirements)
